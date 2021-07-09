@@ -1,0 +1,34 @@
+{
+    "SocialMediaList":[
+        {
+            "id":"1",
+            "handle":"fb",
+            "link":"https://www.facebook.com/thekefinama"
+        },
+        {
+            "id":"2",
+            "handle":"twitter",
+            "link":"https://twitter.com/KefiNama"
+        },
+        {
+            "id":"3",
+            "handle":"insta",
+            "link":"https://www.instagram.com/thekefinama/"
+        },
+        {
+            "id":"4",
+            "handle":"spotify",
+            "link":"https://open.spotify.com/artist/2U1Dsu0Ybgds4Y6X2ZebO4?si=J_V5RicSTE6VL2viM-OFAw&dl_branch=1&nd=1"
+        },
+        {
+            "id":"5",
+            "handle":"yt",
+            "link":"https://www.youtube.com/c/KefiNama"
+        },
+        {
+            "id":"6",
+            "handle":"email",
+            "link":"mailto:Kefinama@gmail.com"
+        }
+    ]
+}

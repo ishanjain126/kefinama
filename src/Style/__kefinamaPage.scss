@@ -1,0 +1,108 @@
+@media screen and (max-width: 480px){
+    .homepageWrapper{
+        overflow: hidden;
+        font-family: var(--poppins);
+        margin-bottom: 20px;
+        .infoWrapper{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            .bannerImage{
+                height: 235px;
+                width: 100%;
+                overflow: hidden;
+                .bannerImg{
+                    height: 185px;
+                    width: 420px;
+                }
+            }
+            .profilePhoto{
+                margin: auto;
+                margin-top: -85px;
+                text-align: center;
+                .profileImage{
+                    border-radius: 50%;
+                    height: 150px;
+                    width: auto;
+                }
+            }
+            .profileCard{
+                margin-top: 15px;
+                border: none;
+                padding-left: 25px;
+                padding-bottom: 15px;
+                color: black;
+                .heading{
+                    font-weight: bold;
+                    font-size: 25px;
+                    color: #FF9277;
+                }
+                .subHeading{
+                    margin-top: 7px;
+                    font-weight: bold;
+                    color: #474EC7;
+                }
+            }
+        }
+        .socialMediaWrapper{
+            margin-top: -15px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            // height: 55px;
+            .socialMediaIcons{
+                margin-top: 25px;
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                .icons{
+                    margin-top: 25px;
+                    margin-bottom: 25px;
+                   text-align: center;
+                }
+            }
+        }
+        .recentVideo{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            margin-top: 12px;
+            padding: 25px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .youtubeWrapper{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            margin-top:12px;
+            padding: 25px;
+            .youtubeHeading{
+                font-size: 18px;
+                font-weight: bold;
+                // color: #474EC7;
+            }
+            .youtubeVideos{
+                overflow-y: scroll;
+                padding-right: 10px;
+                display: flex;
+                flex-direction: row;
+            }
+        }
+        .spotifyWrapper{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            margin-top:12px;
+            padding: 25px;
+            .spotifyName{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .spotifySongs{
+                padding-right: 15px;
+                display: flex;
+                flex-direction: row;
+                overflow-y: scroll;
+            }
+        }
+        .poweredBy{
+            margin-top: 45px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            color: #FF9277;
+            margin-bottom: 25px;
+        }
+    }
+}
+// }
